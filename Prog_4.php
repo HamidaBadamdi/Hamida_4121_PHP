@@ -1,5 +1,6 @@
 <?php
     //4. PHP program to find the current month.
+
     $month = date("F"); //uses built-in function date() , it returns the current month.
 
     //Using if-else statement...
@@ -38,4 +39,5 @@
     {
         echo $num,"<br>";
     }*/
+
 ?>
