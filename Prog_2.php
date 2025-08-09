@@ -1,4 +1,4 @@
-<!--2.Write a PHP program to find out maximum and minimum number -->
+<!--2.PHP program to find out maximum and minimum number -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,3 +28,4 @@
 </body>
 
 </html>
+
