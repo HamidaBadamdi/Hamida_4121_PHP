@@ -1,3 +1,4 @@
+<!--3.PHP program for operators in PHP. -->
 <?php
 
     $a = 10;
@@ -59,5 +60,6 @@
 
     echo $str1.$str2 , "<br>";
     echo $str1.=$str2 ,"</center>";
+
 
 ?>
