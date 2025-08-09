@@ -1,5 +1,5 @@
 <?php
-
+    //6. PHP program to print 15 to 20 using While and Do While.
     $i=15;
      //Using for loop to print 15 to 20...
      echo "<center><h1>Using While loop print(15 To 20) ...<br></h1>";
@@ -19,4 +19,5 @@
         
     }while($j <=20);
     echo "</center><hr>";
+
 ?>
