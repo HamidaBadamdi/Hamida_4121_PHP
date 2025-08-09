@@ -1,3 +1,4 @@
+<!-- PHP program for print Previous semester Result using variables & constants in PHP. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
 </head>
 <body style="background-color:lightblue;">
 <?php
-    // PHP code to assign the marks for each subject...
+    //PHP code to assign the marks for each subject...
     $asp = 75;
     $android = 81;
     $ml = 93;
@@ -81,3 +82,4 @@
 </center>
 </body>
 </html>
+
