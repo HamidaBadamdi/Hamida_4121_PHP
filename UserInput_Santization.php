@@ -8,6 +8,7 @@
 <body>
         <center>
             <h1>Conatct Form</h1>
+            <!-- HTML Form -->
             <form method="post" action="">
             <div style="background-color:lightblue; width:40%; padding-top:20px; 
             padding-bottom: 20px; border:1px solid navy; border-radius:8px; ">
@@ -24,23 +25,24 @@
 
                 if($_SERVER["REQUEST_METHOD"] == "POST")
                 {
-                  
+
+                     // Accept user input
                     $name = trim($_POST["name"]);
                     $email = trim($_POST["email"]);
                     $mssg = trim($_POST["mssg"]);
-                
-                
 
-                $email = strtolower($email);
+                   
+                    $email = strtolower($email);  //Convert to lowercase
 
-                $mssg = htmlspecialchars($mssg ,ENT_QUOTES , 'UTF-8');
+                    $mssg = htmlspecialchars($mssg);  // Prevent XSS 
 
                     
                 echo "<h3>";
+                 // Display sanitized output
                 echo ".....Sanitized Outputs.....<br>";   
                
-                echo "Name : ".htmlspecialchars($name ,ENT_QUOTES , 'UTF-8')."<br>";
-                echo "Email : ".htmlspecialchars($email ,ENT_QUOTES , 'UTF-8')."<br>";
+                echo "Name : ".htmlspecialchars($name)."<br>";
+                echo "Email : ".htmlspecialchars($email)."<br>";
                 echo "Message : ".nl2br($mssg)."<br>";
                 echo "</h3>";
 
@@ -51,4 +53,5 @@
             
 </center>
 </body>
+
 </html>
