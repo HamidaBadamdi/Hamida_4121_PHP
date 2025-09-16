@@ -21,7 +21,7 @@
 
                 $diff = $event - $today;  // Difference in seconds
                 $days = floor($diff / (60 * 60 * 24)); // Convert to days
-
+                echo "<h3>Event Date is : ".date($eventDate)."</h3><br>";
                 return "<h3>".$days. " days remaining until the event.</h3>";
 
                 
@@ -34,4 +34,5 @@
         ?>
 </center>
 </body>
+
 </html>
