@@ -26,4 +26,5 @@
     echo "<h2>Database User : ".$db_user."</h2>";
     echo "</center>";
 
+
 ?>
